@@ -4,7 +4,7 @@ print("Hello, World!")
 
 # Exercise 2: Custom Print Statement
 # Write a print statement that displays your name, e.g., "My name is Your Name
-print("My name is Your Name")
+print("My name is  Name")
 
 # Exercise 3: Multiple Print Statements
 # Write three print statements that display:
@@ -41,3 +41,11 @@ print("Python is fun!")
 
 # 
 print("I am learning to code!")
+
+"""
+wefs
+sdf
+sd
+f
+
+"""
