@@ -26,4 +26,4 @@ final_total = price + tax
 print("Subtotal =",subtotal)
 print("Discount =",str(discount))
 print("Price after discount =",price)
-print(f"Tax for =",subtotal)ห
+print(f"Tax for =",subtotal)
