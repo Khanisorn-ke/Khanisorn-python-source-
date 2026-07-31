@@ -11,7 +11,9 @@ print(f"Every 2nd: {colors[::2]}")      # ('red', 'blue', 'purple')
 
 # Tuple unpacking
 point = (10, 20)
-x, y = point
+x = point [0]
+y = point [1]
+x,y = point
 print(f"x: {x}, y: {y}")                # x: 10, y: 20
 
 # Multiple assignment using tuples
