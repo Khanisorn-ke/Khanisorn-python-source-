@@ -116,6 +116,7 @@ print(f"{count} letters 'l' found in '{text}'")
 # ===========================
 
 print("\n=== MEMBERSHIP TEST ===")
+print('Khanisorn' , 'Love' , 'Python')
 print("'a' in 'program':", 'a' in 'program')  # True
 print("'at' not in 'battle':", 'at' not in 'battle')  # False
 
@@ -174,7 +175,8 @@ print("\n=== STRING FORMATTING ===")
 name = "ashish"
 age = 8
 print("Using %% formatting:")
-print("name=%s and age=%d" % (name, age))
+
+print("name=%s and age=%d,  %.2f" (name, age))
 print("name=%s and age=%d" % ("ankita", 6))
 
 # .format() method
@@ -185,9 +187,11 @@ sal = 20000
 
 # Different format styles
 str1 = '{},{},{}'.format(id_num, name, sal)
+str1 = f'{id_name},{name},{sal}'
 print(str1)  # 10,shankar,20000
 
 str2 = '{} - {} - {}'.format(id_num, name, sal)
+str2 = f"{id_name} - {name}, - {sal}"
 print(str2)  # 10 - shankar - 20000
 
 str3 = 'id={}\nname={}\nsal={}'.format(id_num, name, sal)
@@ -200,7 +204,7 @@ print(str3)
 print("\n=== STRING METHODS ===")
 text = "welcome to the world of python"
 
-# Case methods
+# (Case คือ ตัวพิม)  methods
 print(f"Original: {text}")
 print(f"Upper: {text.upper()}")
 print(f"Lower: {text.lower()}")
