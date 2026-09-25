@@ -34,16 +34,16 @@ return string ที่จัดรูปแบบข้อมูลผู้ใ
 
 def create_user_profile(username , age = 20 , premium = False)
 
-user_type = "Standard"
+    user_type = "Standard"
 
-if premium == True:
-        user_type = "Permium"
+    if premium == True:
+            user_type = "Permium"
 
-    return f"{username} (age: {age}) - {user_type}"
+        return f"{username} (age: {age}) - {user_type}"
 
-print(create_user_profile("khanisorn",20))
-print(create_user_profile("Ploy",))
-print(create_user_profile("Teitie",20,true))  
+    print(create_user_profile("khanisorn",20))
+    print(create_user_profile("Ploy",))
+    print(create_user_profile("Teitie",20,true))  
 
 
 
